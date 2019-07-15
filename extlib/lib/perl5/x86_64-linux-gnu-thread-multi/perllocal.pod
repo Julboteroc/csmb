@@ -1,0 +1,264 @@
+=head2 Fri Jul 12 21:26:38 2019: C<Module> L<XML::DOM::XPath|XML::DOM::XPath>
+
+=over 4
+
+=item *
+
+C<installed into: /var/www/html/JBrowse-1.15.1-dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.14>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jul 12 21:26:48 2019: C<Module> L<BioPerl|BioPerl>
+
+=over 4
+
+=item *
+
+C<installed into: /var/www/html/JBrowse-1.15.1-dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.7.5>
+
+=item *
+
+C<EXE_FILES: bin/bp_aacomp bin/bp_bioflat_index bin/bp_biogetseq bin/bp_chaos_plot bin/bp_classify_hits_kingdom bin/bp_dbsplit bin/bp_extract_feature_seq bin/bp_fastam9_to_table bin/bp_fetch bin/bp_filter_search bin/bp_find-blast-matches bin/bp_gccalc bin/bp_genbank2gff3 bin/bp_index bin/bp_local_taxonomydb_query bin/bp_make_mrna_protein bin/bp_mask_by_search bin/bp_mrtrans bin/bp_mutate bin/bp_nexus2nh bin/bp_nrdb bin/bp_oligo_count bin/bp_process_gadfly bin/bp_process_sgd bin/bp_revtrans-motif bin/bp_search2alnblocks bin/bp_search2gff bin/bp_search2table bin/bp_search2tribe bin/bp_seq_length bin/bp_seqconvert bin/bp_seqcut bin/bp_seqpart bin/bp_seqret bin/bp_seqretsplit bin/bp_split_seq bin/bp_sreformat bin/bp_taxid4species bin/bp_taxonomy2tree bin/bp_translate_seq bin/bp_tree2pag bin/bp_unflatten_seq>
+
+=back
+
+=head2 Fri Jul 12 21:26:52 2019: C<Module> L<File::Slurp::Tiny|File::Slurp::Tiny>
+
+=over 4
+
+=item *
+
+C<installed into: /var/www/html/JBrowse-1.15.1-dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.004>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jul 12 21:26:53 2019: C<Module> L<Tree::DAG_Node|Tree::DAG_Node>
+
+=over 4
+
+=item *
+
+C<installed into: /var/www/html/JBrowse-1.15.1-dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.31>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jul 12 21:26:53 2019: C<Module> L<Bio::FeatureIO|Bio::FeatureIO>
+
+=over 4
+
+=item *
+
+C<installed into: /var/www/html/JBrowse-1.15.1-dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.6.905>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jul 12 21:26:56 2019: C<Module> L<local::lib|local::lib>
+
+=over 4
+
+=item *
+
+C<installed into: /var/www/html/JBrowse-1.15.1-dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.000024>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jul 12 21:26:57 2019: C<Module> L<Heap::Simple|Heap::Simple>
+
+=over 4
+
+=item *
+
+C<installed into: /var/www/html/JBrowse-1.15.1-dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.13>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jul 12 21:27:04 2019: C<Module> L<Devel::Size|Devel::Size>
+
+=over 4
+
+=item *
+
+C<installed into: /var/www/html/JBrowse-1.15.1-dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.83>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jul 12 21:27:07 2019: C<Module> L<Heap::Simple::XS|Heap::Simple::XS>
+
+=over 4
+
+=item *
+
+C<installed into: /var/www/html/JBrowse-1.15.1-dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.10>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jul 12 21:27:09 2019: C<Module> L<File::ReadBackwards|File::ReadBackwards>
+
+=over 4
+
+=item *
+
+C<installed into: /var/www/html/JBrowse-1.15.1-dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.05>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jul 12 21:27:10 2019: C<Module> L<Bio::GFF3|Bio::GFF3>
+
+=over 4
+
+=item *
+
+C<installed into: /var/www/html/JBrowse-1.15.1-dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.0>
+
+=item *
+
+C<EXE_FILES: bin/gff3_from_fasta>
+
+=back
+
+=head2 Fri Jul 12 21:27:11 2019: C<Module> L<File::Next|File::Next>
+
+=over 4
+
+=item *
+
+C<installed into: /var/www/html/JBrowse-1.15.1-dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.16>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

@@ -1,0 +1,1663 @@
+{
+  "formatVersion": 1,
+  "trackMetadata": {
+    "indexFacets": [
+      "label",
+      "Name",
+      "urlTemplate",
+      "Annotation",
+      "Gene",
+      "Pathway",
+      "Product",
+      "Reference"
+    ],
+    "sources": [
+      {
+        "type": "csv",
+        "url": "data/modencode.csv"
+      }
+    ]
+  },
+  "trackSelector": {
+    "displayColums": [
+      "label",
+      "Name",
+      "urlTemplate",
+      "Annotation",
+      "Gene",
+      "Pathway",
+      "Product",
+      "Reference"
+    ],
+    "type": "Faceted"
+  },
+  "tracks": [
+    {
+      "category": "Reference sequence",
+      "chunkSize": 20000,
+      "key": "Reference sequence",
+      "label": "DNA",
+      "seqType": "dna",
+      "storeClass": "JBrowse/Store/Sequence/StaticChunked",
+      "type": "SequenceTrack",
+      "urlTemplate": "seq/{refseq_dirpath}/{refseq}-"
+    },
+    {
+      "key": "lamu_GLEAN_10000277",
+      "label": "lamu_GLEAN_10000277",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10000277/{refseq}/trackData.json",
+      "compress": 0,
+      "gradient": "true",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ]
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10000491",
+      "label": "lamu_GLEAN_10000491",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10000491/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10000607",
+      "label": "lamu_GLEAN_10000607",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10000607/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10001382",
+      "label": "lamu_GLEAN_10001382",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10001382/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10001503",
+      "label": "lamu_GLEAN_10001503",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10001503/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10001790",
+      "label": "lamu_GLEAN_10001790",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10001790/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10001835",
+      "label": "lamu_GLEAN_10001835",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10001835/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10002138",
+      "label": "lamu_GLEAN_10002138",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10002138/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10002352",
+      "label": "lamu_GLEAN_10002352",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10002352/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10002396",
+      "label": "lamu_GLEAN_10002396",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10002396/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10002543",
+      "label": "lamu_GLEAN_10002543",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10002543/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10002632",
+      "label": "lamu_GLEAN_10002632",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10002632/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10002691",
+      "label": "lamu_GLEAN_10002691",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10002691/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10003291",
+      "label": "lamu_GLEAN_10003291",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10003291/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10003334",
+      "label": "lamu_GLEAN_10003334",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10003334/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10003474",
+      "label": "lamu_GLEAN_10003474",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10003474/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10003669",
+      "label": "lamu_GLEAN_10003669",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10003669/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10003828",
+      "label": "lamu_GLEAN_10003828",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10003828/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10003929",
+      "label": "lamu_GLEAN_10003929",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10003929/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10004003",
+      "label": "lamu_GLEAN_10004003",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10004003/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10004177",
+      "label": "lamu_GLEAN_10004177",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10004177/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10004260",
+      "label": "lamu_GLEAN_10004260",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10004260/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10004348",
+      "label": "lamu_GLEAN_10004348",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10004348/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10004633",
+      "label": "lamu_GLEAN_10004633",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10004633/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10004957",
+      "label": "lamu_GLEAN_10004957",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10004957/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10004972",
+      "label": "lamu_GLEAN_10004972",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10004972/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10004999",
+      "label": "lamu_GLEAN_10004999",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10004999/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10005323",
+      "label": "lamu_GLEAN_10005323",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10005323/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10005410",
+      "label": "lamu_GLEAN_10005410",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10005410/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10005432",
+      "label": "lamu_GLEAN_10005432",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10005432/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10005665",
+      "label": "lamu_GLEAN_10005665",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10005665/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10005687",
+      "label": "lamu_GLEAN_10005687",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10005687/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10005726",
+      "label": "lamu_GLEAN_10005726",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10005726/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10005784",
+      "label": "lamu_GLEAN_10005784",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10005784/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10005817",
+      "label": "lamu_GLEAN_10005817",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10005817/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10005836",
+      "label": "lamu_GLEAN_10005836",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10005836/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10006324",
+      "label": "lamu_GLEAN_10006324",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10006324/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10006517",
+      "label": "lamu_GLEAN_10006517",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10006517/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10006873",
+      "label": "lamu_GLEAN_10006873",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10006873/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10006874",
+      "label": "lamu_GLEAN_10006874",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10006874/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10007064",
+      "label": "lamu_GLEAN_10007064",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10007064/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10007167",
+      "label": "lamu_GLEAN_10007167",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10007167/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10007414",
+      "label": "lamu_GLEAN_10007414",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10007414/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10007494",
+      "label": "lamu_GLEAN_10007494",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10007494/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10007495",
+      "label": "lamu_GLEAN_10007495",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10007495/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10007523",
+      "label": "lamu_GLEAN_10007523",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10007523/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10007711",
+      "label": "lamu_GLEAN_10007711",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10007711/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10007712",
+      "label": "lamu_GLEAN_10007712",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10007712/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10007713",
+      "label": "lamu_GLEAN_10007713",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10007713/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10007762",
+      "label": "lamu_GLEAN_10007762",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10007762/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10007791",
+      "label": "lamu_GLEAN_10007791",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10007791/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10007906",
+      "label": "lamu_GLEAN_10007906",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10007906/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10008041",
+      "label": "lamu_GLEAN_10008041",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10008041/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10008141",
+      "label": "lamu_GLEAN_10008141",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10008141/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10008294",
+      "label": "lamu_GLEAN_10008294",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10008294/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10008777",
+      "label": "lamu_GLEAN_10008777",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10008777/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10008793",
+      "label": "lamu_GLEAN_10008793",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10008793/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10008794",
+      "label": "lamu_GLEAN_10008794",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10008794/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10008970",
+      "label": "lamu_GLEAN_10008970",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10008970/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10008972",
+      "label": "lamu_GLEAN_10008972",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10008972/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10009025",
+      "label": "lamu_GLEAN_10009025",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10009025/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10009097",
+      "label": "lamu_GLEAN_10009097",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10009097/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10009168",
+      "label": "lamu_GLEAN_10009168",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10009168/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10009440",
+      "label": "lamu_GLEAN_10009440",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10009440/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10009443",
+      "label": "lamu_GLEAN_10009443",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10009443/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10009726",
+      "label": "lamu_GLEAN_10009726",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10009726/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10009851",
+      "label": "lamu_GLEAN_10009851",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10009851/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10010383",
+      "label": "lamu_GLEAN_10010383",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10010383/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10010532",
+      "label": "lamu_GLEAN_10010532",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10010532/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10010604",
+      "label": "lamu_GLEAN_10010604",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10010604/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10010612",
+      "label": "lamu_GLEAN_10010612",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10010612/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10010708",
+      "label": "lamu_GLEAN_10010708",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10010708/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10010819",
+      "label": "lamu_GLEAN_10010819",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10010819/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10011031",
+      "label": "lamu_GLEAN_10011031",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10011031/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10011190",
+      "label": "lamu_GLEAN_10011190",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10011190/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10011317",
+      "label": "lamu_GLEAN_10011317",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10011317/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "lamu_GLEAN_10011338",
+      "label": "lamu_GLEAN_10011338",
+      "menuTemplate": [
+        {
+          "action": "contentDialog",
+          "content": "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+          "iconClass": "dijitIconBookmark",
+          "label": "View Feature Sequence"
+        }
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/lamu_GLEAN_10011338/{refseq}/trackData.json"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+[["hsp100","lamu_GLEAN_10003828"],"lamu_GLEAN_10003828","hsp100","scaffold91",540449,551783]

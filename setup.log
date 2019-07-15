@@ -1,0 +1,368 @@
+
+Gathering system information ...
+============== System information ====
++ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04 LTS
+Release:	18.04
+Codename:	bionic
++ uname -a
+Linux juliana-X442UA 4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
++ sw_vers
+./setup.sh: línea 74: sw_vers: orden no encontrada
++ grep MemTotal /proc/meminfo
+MemTotal:        8047480 kB
++ echo
+
++ echo
+
+
+done.
+
+
+NOTE: Legacy scripts wig-to-json.pl and bam-to-json.pl have been removed from setup. Their functionality has been superseded by add-bam-track.pl and add-bw-track.pl. If you require the old versions, please use JBrowse 1.12.3 or earlier.
+
+
+Installing node.js dependencies and building with webpack ...
+Node v8.10.0 installed at /usr/bin/node with npm 3.5.2
+yarn install v1.6.0
+[1/4] Resolving packages...
+success Already up-to-date.
+Done in 0.70s.
+yarn run v1.6.0
+$ webpack
+clean-webpack-plugin: /var/www/html/JBrowse-1.15.1-dev/dist has been removed.
+jbrowse-glob-loader: building 200 JBrowse modules
+jbrowse-glob-loader: adding plugin module RegexSequenceSearch/View/SearchSeqDialog
+jbrowse-glob-loader: adding plugin module RegexSequenceSearch/Store/SeqFeature/RegexSearch
+jbrowse-glob-loader: adding plugin module RegexSequenceSearch/main
+jbrowse-glob-loader: adding plugin module NeatHTMLFeatures/View/Track/NeatFeatures
+jbrowse-glob-loader: adding plugin module NeatHTMLFeatures/main
+jbrowse-glob-loader: adding plugin module NeatCanvasFeatures/View/Track/NeatFeatures
+jbrowse-glob-loader: adding plugin module NeatCanvasFeatures/View/FeatureGlyph/Segments
+jbrowse-glob-loader: adding plugin module NeatCanvasFeatures/View/FeatureGlyph/ProcessedTranscript
+jbrowse-glob-loader: adding plugin module NeatCanvasFeatures/View/FeatureGlyph/Gene
+jbrowse-glob-loader: adding plugin module NeatCanvasFeatures/View/FeatureGlyph/Box
+jbrowse-glob-loader: adding plugin module NeatCanvasFeatures/main
+jbrowse-glob-loader: adding plugin module HideTrackLabels/main
+jbrowse-glob-loader: adding plugin module FeatureSequence/View/FeatureSequenceOld
+jbrowse-glob-loader: adding plugin module FeatureSequence/View/FeatureSequence
+jbrowse-glob-loader: adding plugin module FeatureSequence/main
+jbrowse-glob-loader: adding plugin module DebugEvents/main
+jbrowse-glob-loader: adding plugin module CategoryUrl/main
+jbrowse-glob-loader: discovered a total of 217 modules
+jbrowse-glob-loader: skipping entry point module JBrowse/main
+Hash: 3177c44042c158b106ff
+Version: webpack 3.11.0
+Time: 17584ms
+                    Asset       Size      Chunks                    Chunk Names
+          0.bundle.js.map    8.82 MB  0, 1, 2, 3  [emitted]         
+              0.bundle.js    6.45 MB  0, 1, 2, 3  [emitted]  [big]  
+              2.bundle.js     145 kB           2  [emitted]         
+              3.bundle.js     398 kB           3  [emitted]  [big]  
+              4.bundle.js    1.68 kB           4  [emitted]         
+              5.bundle.js  921 bytes           5  [emitted]         
+    run_jasmine.bundle.js     557 kB           6  [emitted]  [big]  run_jasmine
+           main.bundle.js     374 kB           7  [emitted]  [big]  main
+              1.bundle.js     494 kB           1  [emitted]  [big]  
+          1.bundle.js.map     676 kB           1  [emitted]         
+          2.bundle.js.map     199 kB           2  [emitted]         
+          3.bundle.js.map     503 kB           3  [emitted]         
+          4.bundle.js.map    1.87 kB           4  [emitted]         
+          5.bundle.js.map    1.13 kB           5  [emitted]         
+run_jasmine.bundle.js.map     836 kB           6  [emitted]         run_jasmine
+       main.bundle.js.map     534 kB           7  [emitted]         main
+ dojo/resources/blank.gif   43 bytes              [emitted]         
+ [352] ./src/JBrowse/Store/SeqFeature/TwoBit.js 3.84 kB {0} [built]
+ [369] ./src/JBrowse/main.js 11.9 kB {7} [built]
+ [370] ./tests/js_tests/main.js 1.55 kB {6} [built]
+ [569] ./src/JBrowse/ConfigAdaptor/JB_json_v0.js 2.03 kB {0} [built]
+ [570] ./plugins/RegexSequenceSearch/js/Store/SeqFeature/RegexSearch.js 4.73 kB {0} [built]
+ [571] ./plugins/RegexSequenceSearch/js/main.js 2.29 kB {0} [built]
+ [572] ./plugins/NeatHTMLFeatures/js/View/Track/NeatFeatures.js 9.36 kB {0} [built]
+ [573] ./plugins/NeatHTMLFeatures/js/main.js 515 bytes {0} [built]
+ [574] ./plugins/NeatCanvasFeatures/js/View/Track/NeatFeatures.js 663 bytes {0} [built]
+ [575] ./plugins/NeatCanvasFeatures/js/View/FeatureGlyph/Gene.js 647 bytes {0} [built]
+ [576] ./plugins/NeatCanvasFeatures/js/main.js 251 bytes {0} [built]
+ [577] ./plugins/HideTrackLabels/js/main.js 4.41 kB {0} [built]
+ [578] ./plugins/FeatureSequence/js/main.js 23.7 kB {0} [built]
+ [579] ./plugins/DebugEvents/js/main.js 6.21 kB {0} [built]
+ [580] ./plugins/CategoryUrl/js/main.js 4.48 kB {0} [built]
+    + 1415 hidden modules
+Done in 21.14s.
+
+done.
+
+
+Installing Perl prerequisites ...
++ bin/cpanm -v --notest -l extlib/ --installdeps .
+cpanm (App::cpanminus) 1.7043 on perl 5.026001 built for x86_64-linux-gnu-thread-multi
+Work directory is /home/juliana/.cpanm/work/1562968188.18509
+You have make /usr/bin/make
+You have LWP 6.39
+You have /bin/tar: tar (GNU tar) 1.29
+Copyright © 2015 Free Software Foundation, Inc.
+License GPLv3+: GPL de GNU versión 3 o posterior <http://gnu.org/licenses/gpl.html>
+Esto es software libre: usted es libre de cambiarlo y redistribuirlo.
+No hay NINGUNA GARANTÍA, hasta donde permite la ley.
+
+Escrito por John Gilmore y Jay Fenlason.
+You have /usr/bin/unzip
+Entering /var/www/html/JBrowse-1.15.1-dev
+Running Makefile.PL
+--> Working on .
+Configuring /var/www/html/JBrowse-1.15.1-dev ... Can't parse version 'dev'
+Can't parse version 'dev'
+Generating a Unix-style Makefile
+Writing Makefile for JBrowse
+Writing MYMETA.yml and MYMETA.json
+Checking dependencies from MYMETA.json ...
+Checking if you have Bio::OntologyIO 0 ... Yes (1.7.5)
+Checking if you have JSON::XS 0 ... Yes (4.02)
+Checking if you have Bio::GFF3::LowLevel::Parser 1.8 ... Yes (2.0)
+Checking if you have Heap::Simple::XS 0 ... Yes (0.10)
+Checking if you have Devel::Size 0 ... Yes (0.83)
+Checking if you have Scalar::Util 0 ... Yes (1.46_02)
+Checking if you have IO::File 0 ... Yes (1.16)
+Checking if you have Cwd 0 ... Yes (3.67)
+Checking if you have Pod::Usage 0 ... Yes (1.69)
+Checking if you have Bio::Root::Version 1.006000 ... Yes (1.7.5)
+Checking if you have Test::Warn 0 ... Yes (0.36)
+Checking if you have Test::More 0 ... Yes (1.302164)
+Checking if you have Parse::RecDescent 0 ... Yes (1.967015)
+Checking if you have PerlIO::gzip 0 ... Yes (0.19)
+Checking if you have Bio::GFF3::LowLevel 1.8 ... Yes (2.0)
+Checking if you have Carp 0 ... Yes (1.42)
+Checking if you have local::lib 0 ... Yes (2.000024)
+Checking if you have List::Util 0 ... Yes (1.46_02)
+Checking if you have List::MoreUtils 0.28 ... Yes (0.416)
+Checking if you have Bio::FeatureIO 0 ... Yes (1.6.905)
+Checking if you have Fcntl 0 ... Yes (1.13)
+Checking if you have JSON 2 ... Yes (4.02)
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have Bio::Index::Fasta 0 ... Yes (1.7.5)
+Checking if you have Heap::Simple 0 ... Yes (0.13)
+Checking if you have Storable 0 ... Yes (2.62)
+Checking if you have File::Temp 0 ... Yes (0.2304)
+Checking if you have vars 0 ... Yes (1.03)
+Checking if you have File::Next 0 ... Yes (1.16)
+Checking if you have FindBin 0 ... Yes (1.51)
+Checking if you have File::Spec 0 ... Yes (3.67)
+Checking if you have Digest::Crc32 0 ... Yes (0.01)
+Checking if you have Data::Dumper 0 ... Yes (2.167)
+Checking if you have Bio::SeqFeature::Lite 0 ... Yes (1.7.5)
+Checking if you have DBI 0 ... Yes (1.642)
+Checking if you have Getopt::Long 0 ... Yes (2.49)
+Checking if you have Bio::SeqFeature::Annotated 0 ... Yes (1.6.905)
+Checking if you have Bio::Annotation::SimpleValue 0 ... Yes (1.7.5)
+Checking if you have IO::Uncompress::Gunzip 0 ... Yes (2.074)
+Checking if you have URI::Escape 0 ... Yes (3.31)
+Checking if you have warnings 0 ... Yes (1.37)
+Checking if you have DBD::SQLite 0 ... Yes (1.62)
+Checking if you have Hash::Merge 0 ... Yes (0.300)
+Checking if you have Capture::Tiny 0 ... Yes (0.48)
+Checking if you have base 0 ... Yes (2.26)
+Checking if you have File::Spec::Functions 0 ... Yes (3.67)
+Checking if you have File::Path 2 ... Yes (2.12_01)
+Checking if you have constant 0 ... Yes (1.33)
+Checking if you have File::Copy::Recursive 0 ... Yes (0.40)
+Checking if you have POSIX 0 ... Yes (1.76)
+Checking if you have DB_File 0 ... Yes (1.840)
+Checking if you have Exporter 0 ... Yes (5.72)
+Checking if you have File::Basename 0 ... Yes (2.85)
+OK
+<== Installed dependencies for .. Finishing.
++ bin/cpanm -v --notest -l extlib/ --installdeps .
+cpanm (App::cpanminus) 1.7043 on perl 5.026001 built for x86_64-linux-gnu-thread-multi
+Work directory is /home/juliana/.cpanm/work/1562968189.18519
+You have make /usr/bin/make
+You have LWP 6.39
+You have /bin/tar: tar (GNU tar) 1.29
+Copyright © 2015 Free Software Foundation, Inc.
+License GPLv3+: GPL de GNU versión 3 o posterior <http://gnu.org/licenses/gpl.html>
+Esto es software libre: usted es libre de cambiarlo y redistribuirlo.
+No hay NINGUNA GARANTÍA, hasta donde permite la ley.
+
+Escrito por John Gilmore y Jay Fenlason.
+You have /usr/bin/unzip
+Entering /var/www/html/JBrowse-1.15.1-dev
+Running Makefile.PL
+--> Working on .
+Configuring /var/www/html/JBrowse-1.15.1-dev ... Can't parse version 'dev'
+Can't parse version 'dev'
+Generating a Unix-style Makefile
+Writing Makefile for JBrowse
+Writing MYMETA.yml and MYMETA.json
+Checking dependencies from MYMETA.json ...
+Checking if you have Bio::FeatureIO 0 ... Yes (1.6.905)
+Checking if you have Test::Warn 0 ... Yes (0.36)
+Checking if you have Hash::Merge 0 ... Yes (0.300)
+Checking if you have Pod::Usage 0 ... Yes (1.69)
+Checking if you have Bio::Annotation::SimpleValue 0 ... Yes (1.7.5)
+Checking if you have Capture::Tiny 0 ... Yes (0.48)
+Checking if you have Bio::Index::Fasta 0 ... Yes (1.7.5)
+Checking if you have IO::File 0 ... Yes (1.16)
+Checking if you have DB_File 0 ... Yes (1.840)
+Checking if you have constant 0 ... Yes (1.33)
+Checking if you have warnings 0 ... Yes (1.37)
+Checking if you have Bio::SeqFeature::Lite 0 ... Yes (1.7.5)
+Checking if you have JSON::XS 0 ... Yes (4.02)
+Checking if you have File::Next 0 ... Yes (1.16)
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have Digest::Crc32 0 ... Yes (0.01)
+Checking if you have vars 0 ... Yes (1.03)
+Checking if you have File::Path 2 ... Yes (2.12_01)
+Checking if you have File::Spec::Functions 0 ... Yes (3.67)
+Checking if you have PerlIO::gzip 0 ... Yes (0.19)
+Checking if you have Exporter 0 ... Yes (5.72)
+Checking if you have List::Util 0 ... Yes (1.46_02)
+Checking if you have Fcntl 0 ... Yes (1.13)
+Checking if you have Devel::Size 0 ... Yes (0.83)
+Checking if you have Heap::Simple 0 ... Yes (0.13)
+Checking if you have Bio::GFF3::LowLevel::Parser 1.8 ... Yes (2.0)
+Checking if you have Bio::Root::Version 1.006000 ... Yes (1.7.5)
+Checking if you have DBI 0 ... Yes (1.642)
+Checking if you have Bio::SeqFeature::Annotated 0 ... Yes (1.6.905)
+Checking if you have File::Temp 0 ... Yes (0.2304)
+Checking if you have base 0 ... Yes (2.26)
+Checking if you have Parse::RecDescent 0 ... Yes (1.967015)
+Checking if you have DBD::SQLite 0 ... Yes (1.62)
+Checking if you have IO::Uncompress::Gunzip 0 ... Yes (2.074)
+Checking if you have File::Basename 0 ... Yes (2.85)
+Checking if you have File::Copy::Recursive 0 ... Yes (0.40)
+Checking if you have FindBin 0 ... Yes (1.51)
+Checking if you have JSON 2 ... Yes (4.02)
+Checking if you have File::Spec 0 ... Yes (3.67)
+Checking if you have Scalar::Util 0 ... Yes (1.46_02)
+Checking if you have local::lib 0 ... Yes (2.000024)
+Checking if you have Carp 0 ... Yes (1.42)
+Checking if you have Bio::GFF3::LowLevel 1.8 ... Yes (2.0)
+Checking if you have Bio::OntologyIO 0 ... Yes (1.7.5)
+Checking if you have Storable 0 ... Yes (2.62)
+Checking if you have Test::More 0 ... Yes (1.302164)
+Checking if you have Data::Dumper 0 ... Yes (2.167)
+Checking if you have Heap::Simple::XS 0 ... Yes (0.10)
+Checking if you have POSIX 0 ... Yes (1.76)
+Checking if you have Cwd 0 ... Yes (3.67)
+Checking if you have Getopt::Long 0 ... Yes (2.49)
+Checking if you have URI::Escape 0 ... Yes (3.31)
+Checking if you have List::MoreUtils 0.28 ... Yes (0.416)
+OK
+<== Installed dependencies for .. Finishing.
++ set -e
++ bin/cpanm -v --notest -l extlib/ --installdeps .
+cpanm (App::cpanminus) 1.7043 on perl 5.026001 built for x86_64-linux-gnu-thread-multi
+Work directory is /home/juliana/.cpanm/work/1562968189.18529
+You have make /usr/bin/make
+You have LWP 6.39
+You have /bin/tar: tar (GNU tar) 1.29
+Copyright © 2015 Free Software Foundation, Inc.
+License GPLv3+: GPL de GNU versión 3 o posterior <http://gnu.org/licenses/gpl.html>
+Esto es software libre: usted es libre de cambiarlo y redistribuirlo.
+No hay NINGUNA GARANTÍA, hasta donde permite la ley.
+
+Escrito por John Gilmore y Jay Fenlason.
+You have /usr/bin/unzip
+Entering /var/www/html/JBrowse-1.15.1-dev
+Running Makefile.PL
+--> Working on .
+Configuring /var/www/html/JBrowse-1.15.1-dev ... Can't parse version 'dev'
+Can't parse version 'dev'
+Generating a Unix-style Makefile
+Writing Makefile for JBrowse
+Writing MYMETA.yml and MYMETA.json
+Checking dependencies from MYMETA.json ...
+Checking if you have Getopt::Long 0 ... Yes (2.49)
+Checking if you have Bio::GFF3::LowLevel 1.8 ... Yes (2.0)
+Checking if you have JSON 2 ... Yes (4.02)
+Checking if you have Digest::Crc32 0 ... Yes (0.01)
+Checking if you have Devel::Size 0 ... Yes (0.83)
+Checking if you have Bio::Annotation::SimpleValue 0 ... Yes (1.7.5)
+Checking if you have File::Basename 0 ... Yes (2.85)
+Checking if you have vars 0 ... Yes (1.03)
+Checking if you have FindBin 0 ... Yes (1.51)
+Checking if you have DBD::SQLite 0 ... Yes (1.62)
+Checking if you have Bio::OntologyIO 0 ... Yes (1.7.5)
+Checking if you have File::Temp 0 ... Yes (0.2304)
+Checking if you have Capture::Tiny 0 ... Yes (0.48)
+Checking if you have Heap::Simple::XS 0 ... Yes (0.10)
+Checking if you have Bio::Root::Version 1.006000 ... Yes (1.7.5)
+Checking if you have List::MoreUtils 0.28 ... Yes (0.416)
+Checking if you have Test::More 0 ... Yes (1.302164)
+Checking if you have Bio::SeqFeature::Lite 0 ... Yes (1.7.5)
+Checking if you have Parse::RecDescent 0 ... Yes (1.967015)
+Checking if you have Heap::Simple 0 ... Yes (0.13)
+Checking if you have base 0 ... Yes (2.26)
+Checking if you have List::Util 0 ... Yes (1.46_02)
+Checking if you have File::Copy::Recursive 0 ... Yes (0.40)
+Checking if you have Bio::SeqFeature::Annotated 0 ... Yes (1.6.905)
+Checking if you have Data::Dumper 0 ... Yes (2.167)
+Checking if you have local::lib 0 ... Yes (2.000024)
+Checking if you have Pod::Usage 0 ... Yes (1.69)
+Checking if you have URI::Escape 0 ... Yes (3.31)
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have File::Path 2 ... Yes (2.12_01)
+Checking if you have Bio::Index::Fasta 0 ... Yes (1.7.5)
+Checking if you have Exporter 0 ... Yes (5.72)
+Checking if you have DBI 0 ... Yes (1.642)
+Checking if you have PerlIO::gzip 0 ... Yes (0.19)
+Checking if you have File::Spec::Functions 0 ... Yes (3.67)
+Checking if you have Carp 0 ... Yes (1.42)
+Checking if you have Cwd 0 ... Yes (3.67)
+Checking if you have warnings 0 ... Yes (1.37)
+Checking if you have File::Next 0 ... Yes (1.16)
+Checking if you have Storable 0 ... Yes (2.62)
+Checking if you have Scalar::Util 0 ... Yes (1.46_02)
+Checking if you have IO::Uncompress::Gunzip 0 ... Yes (2.074)
+Checking if you have constant 0 ... Yes (1.33)
+Checking if you have Hash::Merge 0 ... Yes (0.300)
+Checking if you have Test::Warn 0 ... Yes (0.36)
+Checking if you have IO::File 0 ... Yes (1.16)
+Checking if you have Fcntl 0 ... Yes (1.13)
+Checking if you have File::Spec 0 ... Yes (3.67)
+Checking if you have DB_File 0 ... Yes (1.840)
+Checking if you have Bio::FeatureIO 0 ... Yes (1.6.905)
+Checking if you have JSON::XS 0 ... Yes (4.02)
+Checking if you have Bio::GFF3::LowLevel::Parser 1.8 ... Yes (2.0)
+Checking if you have POSIX 0 ... Yes (1.76)
+OK
+<== Installed dependencies for .. Finishing.
+
+done.
+
+
+
+
+
+Formatting Volvox example data ...
++ rm -rf sample_data/json/volvox
++ bin/prepare-refseqs.pl --fasta docs/tutorial/data_files/volvox.fa --out sample_data/json/volvox
++ '[' 0 -eq 1 ']'
++ bin/biodb-to-json.pl -v --conf docs/tutorial/conf_files/volvox.json --out sample_data/json/volvox
+Can't locate Bio/DB/SeqFeature/Store.pm in @INC (you may need to install the Bio::DB::SeqFeature::Store module) (@INC contains: /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.1/x86_64-linux-gnu-thread-multi /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.1 /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/x86_64-linux-gnu-thread-multi /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.0/x86_64-linux-gnu-thread-multi /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.0 /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5 /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.1/x86_64-linux-gnu-thread-multi /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.1 /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/x86_64-linux-gnu-thread-multi /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.0 /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.0/x86_64-linux-gnu-thread-multi /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5 /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5 /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at (eval 17) line 1.
+ at /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/Bio/JBrowse/ConfigurationManager.pm line 7.
+	Bio::JBrowse::ConfigurationManager::__ANON__("Can't locate Bio/DB/SeqFeature/Store.pm in \@INC (you may need"...) called at (eval 17) line 1
+	eval 'require Bio::DB::SeqFeature::Store; 1' called at /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/Bio/JBrowse/Cmd/BioDBToJson.pm line 69
+	Bio::JBrowse::Cmd::BioDBToJson::run(Bio::JBrowse::Cmd::BioDBToJson=HASH(0x5647025d8ed0)) called at bin/biodb-to-json.pl line 9
+ at /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/Bio/JBrowse/ConfigurationManager.pm line 7.
+	Bio::JBrowse::ConfigurationManager::__ANON__("Can't locate Bio/DB/SeqFeature/Store.pm in \@INC (you may need"...) called at /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/Bio/JBrowse/Cmd/BioDBToJson.pm line 69
+	Bio::JBrowse::Cmd::BioDBToJson::run(Bio::JBrowse::Cmd::BioDBToJson=HASH(0x5647025d8ed0)) called at bin/biodb-to-json.pl line 9
+
+
+
+
+Formatting Yeast example data ...
++ rm -rf sample_data/json/yeast/
++ bin/prepare-refseqs.pl --fasta sample_data/raw/yeast_scaffolds/chr1.fa.gz --fasta sample_data/raw/yeast_scaffolds/chr2.fa.gzip --out sample_data/json/yeast/
++ gunzip -c sample_data/raw/yeast_scaffolds/chr1.fa.gz sample_data/raw/yeast_scaffolds/chr2.fa.gzip
++ '[' 0 -eq 1 ']'
++ bin/biodb-to-json.pl --conf sample_data/raw/yeast.json --out sample_data/json/yeast/
+Can't locate Bio/DB/SeqFeature/Store.pm in @INC (you may need to install the Bio::DB::SeqFeature::Store module) (@INC contains: /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.1/x86_64-linux-gnu-thread-multi /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.1 /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/x86_64-linux-gnu-thread-multi /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.0/x86_64-linux-gnu-thread-multi /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.0 /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5 /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.1/x86_64-linux-gnu-thread-multi /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.1 /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/x86_64-linux-gnu-thread-multi /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.0 /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5/5.26.0/x86_64-linux-gnu-thread-multi /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/../../extlib/lib/perl5 /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5 /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at (eval 17) line 1.
+ at /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/Bio/JBrowse/ConfigurationManager.pm line 7.
+	Bio::JBrowse::ConfigurationManager::__ANON__("Can't locate Bio/DB/SeqFeature/Store.pm in \@INC (you may need"...) called at (eval 17) line 1
+	eval 'require Bio::DB::SeqFeature::Store; 1' called at /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/Bio/JBrowse/Cmd/BioDBToJson.pm line 69
+	Bio::JBrowse::Cmd::BioDBToJson::run(Bio::JBrowse::Cmd::BioDBToJson=HASH(0x5642f6a9de10)) called at bin/biodb-to-json.pl line 9
+ at /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/Bio/JBrowse/ConfigurationManager.pm line 7.
+	Bio::JBrowse::ConfigurationManager::__ANON__("Can't locate Bio/DB/SeqFeature/Store.pm in \@INC (you may need"...) called at /var/www/html/JBrowse-1.15.1-dev/bin/../src/perl5/Bio/JBrowse/Cmd/BioDBToJson.pm line 69
+	Bio::JBrowse::Cmd::BioDBToJson::run(Bio::JBrowse::Cmd::BioDBToJson=HASH(0x5642f6a9de10)) called at bin/biodb-to-json.pl line 9
