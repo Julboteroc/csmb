@@ -13005,7 +13005,7 @@ module.exports = __webpack_require__(706).PassThrough
 	'dojo/_base/kernel':583,
 	'dojo/has':584,
 	'dojo/sniff':587,
-	// ../modules/_core = 591
+	// ../../modules/_core = 591
 	// ./_export = 599
 	// ./_wks = 600
 	// ./_global = 601
@@ -13032,7 +13032,7 @@ module.exports = __webpack_require__(706).PassThrough
 	// babel-runtime/core-js/object/keys = 655
 	// core-util-is = 656
 	// ./_property-desc = 660
-	// ../../modules/es6.string.iterator = 661
+	// ../modules/es6.string.iterator = 661
 	// ./_a-function = 666
 	// ./_to-length = 667
 	// ./_library = 668

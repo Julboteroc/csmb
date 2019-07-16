@@ -294,7 +294,7 @@
 /******/ 			// ./_to-iobject = 15
 /******/ 			// ./_object-gopd = 16
 /******/ 			// ./_object-gpo = 17
-/******/ 			// ../../modules/_core = 18
+/******/ 			// ./modules/_core = 18
 /******/ 			// ./_ctx = 19
 /******/ 			// ./_cof = 20
 /******/ 			// ./_strict-method = 21
