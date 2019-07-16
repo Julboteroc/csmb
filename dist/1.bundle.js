@@ -13887,7 +13887,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 	'dojo/global':620,
 	'dojo/Evented':627,
 	'dojo/_base/Deferred':631,
-	// /var/www/html/JBrowse-1.15.1-dev/node_modules/dojo-webpack-plugin/lib/NoModule.js = 637
+	// /var/www/html/Moringa_jekyll/node_modules/dojo-webpack-plugin/lib/NoModule.js = 637
 	'dojo/request':647,
 	'dojo/promise/Promise':652,
 	'dojo/_base/json':657,

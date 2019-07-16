@@ -78,7 +78,7 @@ INST_MAN3DIR = blib/man3
 MAN1EXT = 1p
 MAN3EXT = 3pm
 INSTALLDIRS = site
-INSTALL_BASE = /var/www/html/JBrowse-1.15.1-dev/extlib
+INSTALL_BASE = /var/www/html/Moringa_jekyll/extlib
 DESTDIR = 
 PREFIX = $(INSTALL_BASE)
 INSTALLPRIVLIB = $(INSTALL_BASE)/lib/perl5
@@ -693,11 +693,17 @@ $(INST_SCRIPT)/ucsc-to-json.pl : bin/ucsc-to-json.pl $(FIRST_MAKEFILE) $(INST_SC
 
 # --- MakeMaker subdirs section:
 
-# none
+# The default clean, realclean and test targets in this Makefile
+# have automatically been given entries for each subdir.
+
+
+subdirs ::
+	$(NOECHO) cd _site && $(MAKE) $(USEMAKEFILE) $(FIRST_MAKEFILE) all $(PASTHRU)
+
 
 # --- MakeMaker clean_subdirs section:
 clean_subdirs :
-	$(NOECHO) $(NOOP)
+	$(ABSPERLRUN)  -e 'exit 0 unless chdir '\''_site'\'';  system '\''$(MAKE) clean'\'' if -f '\''$(FIRST_MAKEFILE)'\'';' --
 
 
 # --- MakeMaker clean section:
@@ -732,7 +738,8 @@ clean :: clean_subdirs
 # --- MakeMaker realclean_subdirs section:
 # so clean is forced to complete before realclean_subdirs runs
 realclean_subdirs : clean
-	$(NOECHO) $(NOOP)
+	- $(ABSPERLRUN)  -e 'chdir '\''_site'\'';  system '\''$(MAKE) $(USEMAKEFILE) $(MAKEFILE_OLD) realclean'\'' if -f '\''$(MAKEFILE_OLD)'\'';' --
+	- $(ABSPERLRUN)  -e 'chdir '\''_site'\'';  system '\''$(MAKE) $(USEMAKEFILE) $(FIRST_MAKEFILE) realclean'\'' if -f '\''$(FIRST_MAKEFILE)'\'';' --
 
 
 # --- MakeMaker realclean section:
@@ -1156,7 +1163,7 @@ $(MAP_TARGET) :: $(MAKE_APERL_FILE)
 $(MAKE_APERL_FILE) : static $(FIRST_MAKEFILE) pm_to_blib
 	$(NOECHO) $(ECHO) Writing \"$(MAKE_APERL_FILE)\" for this $(MAP_TARGET)
 	$(NOECHO) $(PERLRUNINST) \
-		Makefile.PL DIR="" \
+		Makefile.PL DIR="_site" \
 		MAKEFILE=$(MAKE_APERL_FILE) LINKTYPE=static \
 		MAKEAPERL=1 NORECURS=1 CCCDLFLAGS=
 
@@ -1179,6 +1186,7 @@ test_ : test_dynamic
 	$(NOECHO) $(NOOP)
 
 subdirs-test_dynamic :: dynamic pure_all
+	$(NOECHO) cd _site && $(MAKE) test_dynamic $(PASTHRU)
 
 test_dynamic :: subdirs-test_dynamic
 	PERL_DL_NONLAZY=1 $(FULLPERLRUN) "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness($(TEST_VERBOSE), '$(INST_LIB)', '$(INST_ARCHLIB)')" $(TEST_FILES)
@@ -1187,6 +1195,7 @@ testdb_dynamic :: dynamic pure_all
 	PERL_DL_NONLAZY=1 $(FULLPERLRUN) $(TESTDB_SW) "-I$(INST_LIB)" "-I$(INST_ARCHLIB)" $(TEST_FILE)
 
 subdirs-test_static :: static pure_all
+	$(NOECHO) cd _site && $(MAKE) test_static $(PASTHRU)
 
 test_static :: subdirs-test_static
 	PERL_DL_NONLAZY=1 $(FULLPERLRUN) "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness($(TEST_VERBOSE), '$(INST_LIB)', '$(INST_ARCHLIB)')" $(TEST_FILES)

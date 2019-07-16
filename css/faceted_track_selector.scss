@@ -90,7 +90,7 @@
         padding: 0.2em;
     }
      label.textFilterControl.selected input {
-        border-top: 3px solid #396494;
+        border-top: 3px solid #47d653;
         background: #D2E1F1;
     }
 
@@ -100,7 +100,7 @@
         padding: 5px;
     }
     #faceted_tracksel_top {
-        background: #396494;
+        background: #47d653;
     }
     #faceted_tracksel_top .topLink {
         color: white;
@@ -116,7 +116,7 @@
         width: 185px;
 
         font-weight: bold;
-        color: white;
+        color: black;
         font-size: 180%;
     }
 
@@ -188,7 +188,7 @@
     }
 
      .facetSelect .facetValue:hover {
-        background: #D2E1F1;
+        background: #47d653;
     }
 
      .facetSelect .facetValue .count {
@@ -201,11 +201,11 @@
     }
 
      .facetSelect .selected {
-        background: #b1d3f6;
+        background: #47d653;
     }
      .facetSelect .facetValue.selected,
      .facetSelect .facetValue.selected:hover {
-        background: #AEC7E3;
+        background: #47d653;
     }
 
 
@@ -221,7 +221,7 @@
      .dijitTitlePaneTitleFocus {
         border-top: 3px solid transparent;
         padding: 2px 2px 2px 0.6em;
-        color: #1B3047
+        color: #40a312
     }
      .dijitOpen .facetTitle {
         font-weight: bold;
@@ -233,8 +233,8 @@
         color: black;
     }
      .activeFacet {
-        border-top: 3px solid #396494;
-        background-color: #AEC7E3;
+        border-top: 3px solid #47d653;
+        background-color: #a8f794;
     }
 
      .facetTitle a {

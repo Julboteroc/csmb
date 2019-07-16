@@ -603,7 +603,7 @@
 /******/ 			// core-js/fn/regexp/escape = 329
 /******/ 			// ../../modules/core.regexp.escape = 330
 /******/ 			// ./_replacer = 331
-/******/ 			// /var/www/html/JBrowse-1.15.1-dev/build/dojo-webpack-plugin-loader/dojo/dojo.js = 332
+/******/ 			// /var/www/html/Moringa_jekyll/build/dojo-webpack-plugin-loader/dojo/dojo.js = 332
 /******/ 			'src/JBrowse/main':369
 /******/ 		});
 /******/

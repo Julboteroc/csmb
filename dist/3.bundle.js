@@ -13005,12 +13005,12 @@ module.exports = __webpack_require__(706).PassThrough
 	'dojo/_base/kernel':583,
 	'dojo/has':584,
 	'dojo/sniff':587,
-	// ../../modules/_core = 591
+	// ../modules/_core = 591
 	// ./_export = 599
 	// ./_wks = 600
 	// ./_global = 601
 	'dojo/_base/config':608,
-	// ./../node_modules/buffer/index.js = 610
+	// buffer = 610
 	// ./_an-object = 612
 	// ./_is-object = 619
 	'dojo/global':620
