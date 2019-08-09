@@ -3,18 +3,18 @@ div.menuBar {
     padding: 1px 0;
     height: 25px;
 
-    background: #47d653;
+    background: #396494;
     text-align: right;
 
     line-height: 1;
 
     a {
-        color: black;
+        color: white;
     }
 
     .dataset-name {
         font-size: 13px;
-        color: black;
+        color: white;
         font-style: italic;
         padding-right: 1em;
         padding-top: 7px;
@@ -35,7 +35,7 @@ div.topLink {
     right: 0;
     top: 0;
     z-index: 50;
-    background: black;
+    background: white;
     border: 1px solid #888;
     border-width: 0 0 1px 1px;
 }
@@ -89,7 +89,7 @@ a.topLink, a.topLink * {
 }
 
 .menuBar .dijitButtonNode * {
-    color: black;
+    color: white;
 }
 .menuBar .config .icon {
     height: 16px;
@@ -107,7 +107,7 @@ a.topLink, a.topLink * {
 .menuBar > .menu, .menuBar  > .dijitComboBox {
     float: left;
     font-size: 120%;
-    color: black;
+    color: white;
     background: transparent;
     height: 100%;
     border: none;
@@ -146,7 +146,7 @@ a.topLink, a.topLink * {
         }
 
         &.dijitSelectHover td {
-            color: black;
+            color: white;
         }
         .dijitButtonContents {
             background: transparent;
@@ -184,7 +184,7 @@ a.topLink, a.topLink * {
 
 .welcome_button {
     border: 1px black;
-    background-color: #47d653;
+    background-color: #396494;
     color: white;
     padding: 10px;
     margin: 2px;
@@ -194,5 +194,5 @@ a.topLink, a.topLink * {
 
 
 .welcome_button:hover {
-    background-color: #47d653;
+    background-color: #3A8A9A;
 }

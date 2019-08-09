@@ -294,7 +294,7 @@
 /******/ 			// ./_to-iobject = 15
 /******/ 			// ./_object-gopd = 16
 /******/ 			// ./_object-gpo = 17
-/******/ 			// ./modules/_core = 18
+/******/ 			// ../../modules/_core = 18
 /******/ 			// ./_ctx = 19
 /******/ 			// ./_cof = 20
 /******/ 			// ./_strict-method = 21
@@ -603,7 +603,7 @@
 /******/ 			// core-js/fn/regexp/escape = 329
 /******/ 			// ../../modules/core.regexp.escape = 330
 /******/ 			// ./_replacer = 331
-/******/ 			// /var/www/html/Moringa_jekyll/build/dojo-webpack-plugin-loader/dojo/dojo.js = 332
+/******/ 			// /var/www/html/Moringa_genome/build/dojo-webpack-plugin-loader/dojo/dojo.js = 332
 /******/ 			'tests/js_tests/main.js':370
 /******/ 			// ./spec/ExportGFF3.spec.js = 371
 /******/ 			// ./spec/QueryParamConfigMapper.spec.js = 372
