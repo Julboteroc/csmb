@@ -1,3 +1,0 @@
-[["lamu_GLEAN_10000981"],"Gene prediction","lamu_GLEAN_10000981","scaffold323",96965,97295]
-[["lamu_GLEAN_10000982"],"Gene prediction","lamu_GLEAN_10000982","scaffold323",109375,110205]
-[["lamu_GLEAN_10000983"],"Gene prediction","lamu_GLEAN_10000983","scaffold323",140660,140969]

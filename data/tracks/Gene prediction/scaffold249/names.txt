@@ -1,8 +1,0 @@
-[["lamu_GLEAN_10000920"],"Gene prediction","lamu_GLEAN_10000920","scaffold249",3393,6364]
-[["lamu_GLEAN_10000921"],"Gene prediction","lamu_GLEAN_10000921","scaffold249",29157,30492]
-[["lamu_GLEAN_10000922"],"Gene prediction","lamu_GLEAN_10000922","scaffold249",36781,37291]
-[["lamu_GLEAN_10000923"],"Gene prediction","lamu_GLEAN_10000923","scaffold249",53966,71059]
-[["lamu_GLEAN_10000924"],"Gene prediction","lamu_GLEAN_10000924","scaffold249",73453,74163]
-[["lamu_GLEAN_10000925"],"Gene prediction","lamu_GLEAN_10000925","scaffold249",75539,76745]
-[["lamu_GLEAN_10000926"],"Gene prediction","lamu_GLEAN_10000926","scaffold249",77953,82878]
-[["lamu_GLEAN_10000927"],"Gene prediction","lamu_GLEAN_10000927","scaffold249",115272,125848]

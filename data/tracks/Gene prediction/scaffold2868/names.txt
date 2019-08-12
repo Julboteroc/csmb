@@ -1,1 +1,0 @@
-[["lamu_GLEAN_10000127"],"Gene prediction","lamu_GLEAN_10000127","scaffold2868",1455,1944]

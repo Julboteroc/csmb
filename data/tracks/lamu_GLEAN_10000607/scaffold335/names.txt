@@ -1,1 +1,0 @@
-[["SMT2","lamu_GLEAN_10000607"],"lamu_GLEAN_10000607","SMT2","scaffold335",48946,50311]
